@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    padding: 10px 10px;
+    margin: 0px;
+}
+
+.menu {
+    width: 400px;
+    height: 30px;
+    display: inline;
+}
+
+span {
+    background-color: grey;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+}
+
+.border {
+    border: 1px red solid;
+}
+
+span:hover {
+    background-color: yellow;
+}
+
+.menu--vertical span {
+    display: block;
+}
