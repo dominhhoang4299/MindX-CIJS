@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b58ac;
+}
+
+.image {
+    width: 50%;
+    height: 50%;
+    display: inline;
+    float: left;
+}
+
+.border {
+    border: solid 1px red;
+}
+
+.login__container {
+    background-color: white;
+}
+
+.login__form {
+    display: inline;
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+
+.title {
+    font-size: 40;
+    display: flex;
+    justify-content: center;
+    color: #2b58ac;
+}
+
+.username {
+    width: 80%;
+    height: 5vh;
+    margin-left: 55px;
+    background-color: #e4dcdc;
+    border: none;
+    padding: 0px 10px;
+}
+
+.password {
+    width: 80%;
+    height: 5vh;
+    margin-left: 55px;
+    background-color: #e4dcdc;
+    border: none;
+    padding: 0px 10px;
+}
+
+.checkbox {
+    margin-left: 55px;
+}
+
+.login_btn {
+    width: 80%;
+    height: 5vh;
+    margin-left: 55px;
+    background-color: #2b58ac;
+    border: none;
+    padding: 0px 10px;
+    color: white;
+}
+
+.forgot {
+    margin-left: 350px;
+    font-size: 20px;
+}
+
+.endmark {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
