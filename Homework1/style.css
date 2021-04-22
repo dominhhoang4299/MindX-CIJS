@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu>span,
+.dropdown__container>span {
+    width: 100px;
+    height: 30px;
+    background-color: #e2b560;
+}
+
+.menu>span {
+    display: inline-block;
+}
+
+.menu>span:hover,
+.dropdown__container>span:hover {
+    background: red;
+    color: black;
+}
+
+.menu>span:hover .dropdown__container {
+    display: block;
+}
+
+.dropdown__container {
+    display: none;
+    position: absolute;
+    /* background-color: red; */
+}
+
+.dropdown__container>span {
+    display: block;
+}
